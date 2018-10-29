@@ -6,7 +6,7 @@ YAML.load_file(file_path).each do |meaning, array|
   english, japanese = array
   library["get_emoticon"][english] = japanese
   library["get_meaning"][japanese] = meaning
-end
+  end
 library
 end
 
